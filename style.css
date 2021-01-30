@@ -194,18 +194,40 @@ img {
   }
 }
 
+h3,
+h5,
+p,
+h6 {
+  color: white;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-heading h3 {
     font-size: 32px;
   }
 }
 
+
+
 body {
+  text-align: justify;
   color: white;
   background-color: black !important;
 }
 
 @media only screen and (max-width: 767px) {
+
+  .classynav ul,
+  .classynav ul li,
+  .classynav ul li a,
+  .classy-menu.menu-on {
+    background-color: black !important;
+  }
+
+  .classynav ul li a:hover {
+    color: yellow;
+  }
+
   .section-heading h3 {
     font-size: 30px;
   }
@@ -563,6 +585,19 @@ textarea:focus {
   color: #ffaf02;
 }
 
+.nav-brand {
+  font-weight: 1000;
+}
+
+.nav-brand:hover {
+  color: #565656 !important;
+}
+
+.nav-brand::first-letter {
+  font-size: 200%;
+  color: #e9cb66;
+}
+
 .header-area .cryptos-main-menu .classynav ul li .dropdown li a,
 .header-area .cryptos-main-menu .classynav ul li .megamenu li a {
   font-size: 14px;
@@ -666,13 +701,15 @@ textarea:focus {
 
 /* :: 6.0 Welcome Area CSS */
 .hero-slides {
+  margin-bottom: 0%;
+  padding-bottom: 0%;
   position: relative;
   z-index: 1;
 }
 
 .hero-slides .single-hero-slide {
   width: 100%;
-  height: 850px;
+  /* height: 850px; */
   position: relative;
   z-index: 1;
   background-color: black;
@@ -1034,6 +1071,10 @@ textarea:focus {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 18px;
+  }
+
+  nav ul.useful-links.d-flex.justify-content-between.flex-wrap li a {
+    color: white !important;
   }
 
   @media only screen and (max-width: 767px) {
@@ -1482,7 +1523,7 @@ textarea:focus {
     font-family: "Open Sans", sans-serif;
     margin-bottom: 15px;
     display: block;
-    color: #8e8e8e;
+    color: white !important;
   }
 
   .main-footer-area .footer-widget .useful-links li a:hover,
