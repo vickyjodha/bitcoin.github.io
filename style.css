@@ -593,7 +593,8 @@ textarea:focus {
   color: #565656 !important;
 }
 
-.nav-brand::first-letter {
+.nav-brand::first-letter,
+.footer-brand::first-letter {
   font-size: 200%;
   color: #e9cb66;
 }
