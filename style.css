@@ -595,9 +595,9 @@ textarea:focus {
 
 .nav-brand::first-letter,
 .footer-brand::first-letter {
-  font-weight: bold;
-  font-size: 200%;
-  color: #e9cb66;
+  font-weight: bold !important;
+  font-size: 200% !important;
+  color: #e9cb66 !important;
 }
 
 .header-area .cryptos-main-menu .classynav ul li .dropdown li a,
