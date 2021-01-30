@@ -723,6 +723,10 @@ textarea:focus {
     }
   }
 
+  p {
+    text-align: justify;
+  }
+
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .hero-slides .single-hero-slide {
       height: 600px;
@@ -1002,6 +1006,8 @@ textarea:focus {
     font-size: 18px;
   }
 
+
+
   @media only screen and (max-width: 767px) {
     .currency-calculator .calculator-first-part input {
       width: 60px;
@@ -1010,6 +1016,8 @@ textarea:focus {
       margin-right: 8px;
     }
   }
+
+
 
   .currency-calculator .calculator-first-part select {
     position: relative;
