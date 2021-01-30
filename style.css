@@ -1634,6 +1634,27 @@ p {
   .breadcumb-area .breadcumb-text h2 {
     font-size: 18px;
   }
+
+  .section-padding-100 {
+    padding: 10px 0px !important;
+  }
+
+  .about-content,
+  .about-thumbnail,
+  .single-feature-area,
+  .single-feature-area p,
+  .section-heading {
+    margin-bottom: 10px !important;
+  }
+
+  .cryptos-btn {
+    width: 30%;
+    display: block;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    text-align: center !important;
+    margin-bottom: 15px !important;
+  }
 }
 
 .breadcumb-area .breadcumb-thumb-area {
