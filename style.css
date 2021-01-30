@@ -200,6 +200,11 @@ img {
   }
 }
 
+body {
+  color: white;
+  background-color: black !important;
+}
+
 @media only screen and (max-width: 767px) {
   .section-heading h3 {
     font-size: 30px;
@@ -367,7 +372,7 @@ textarea:focus {
 /* ScrollUp */
 #scrollUp {
   background-color: #ffaf02;
-  border-radius: 0;
+  border-radius: 50%;
   bottom: 60px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
   color: #ffffff;
@@ -382,7 +387,9 @@ textarea:focus {
 }
 
 #scrollUp:hover {
-  background-color: #141414;
+  border: 2px solid white;
+  color: white;
+  background-color: #312f2f;
 }
 
 @media only screen and (max-width: 767px) {
@@ -448,6 +455,8 @@ textarea:focus {
 
 /* :: 5.0 Header Area CSS */
 .header-area {
+  color: white;
+  background-color: #353535;
   position: relative;
   z-index: 100;
   width: 100%;
@@ -539,9 +548,14 @@ textarea:focus {
 }
 
 .header-area .cryptos-main-menu .classy-navbar .classynav ul li a {
+  color: white;
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
+}
+
+.header-area .cryptos-main-menu .classy-navbar .classynav ul li a::after {
+  color: white;
 }
 
 .header-area .cryptos-main-menu .classy-navbar .classynav ul li a:hover,
@@ -552,6 +566,7 @@ textarea:focus {
 .header-area .cryptos-main-menu .classynav ul li .dropdown li a,
 .header-area .cryptos-main-menu .classynav ul li .megamenu li a {
   font-size: 14px;
+  background-color: black;
 }
 
 .header-area .cryptos-main-menu .classynav .header-newsletter-form {
