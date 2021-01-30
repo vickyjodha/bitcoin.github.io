@@ -1,4 +1,3 @@
-/* [Master Stylesheet v1.0] */
 /* :: :: 1.0 Import Fonts */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900|Open+Sans:400,600,700");
 /* :: 2.0 Import All CSS */
@@ -10,7 +9,7 @@
 @import url(css/custom-icon.css);
 @import url(css/classy-nav.min.css);
 
-/* :: 3.0 Base CSS */
+
 * {
   margin: 0;
   padding: 0;
@@ -1118,9 +1117,7 @@ p {
   font-size: 18px;
 }
 
-nav ul.useful-links.d-flex.justify-content-between.flex-wrap li a {
-  color: white !important;
-}
+
 
 @media only screen and (max-width: 767px) {
   .currency-calculator .calculator-sec-part input {
@@ -1568,12 +1565,12 @@ nav ul.useful-links.d-flex.justify-content-between.flex-wrap li a {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 15px;
   display: block;
-  color: white !important;
+  color: white;
 }
 
 .main-footer-area .footer-widget .useful-links li a:hover,
 .main-footer-area .footer-widget .useful-links li a:focus {
-  color: #ffaf02;
+  color: #ffaf02 !important;
 }
 
 .bottom-footer-area {
