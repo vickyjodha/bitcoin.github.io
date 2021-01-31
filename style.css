@@ -1676,7 +1676,7 @@ p {
 
 .testimonials .card p {
   text-align: justify;
-  font-size: 18px;
+  font-size: 17px;
   color: #555;
   padding-bottom: 15px;
 
@@ -1716,6 +1716,12 @@ p {
 @media only screen and (max-width: 767px) {
   .breadcumb-area .breadcumb-text h2 {
     font-size: 18px;
+  }
+
+  .testimonials .card p {
+    font-size: 15px;
+
+
   }
 
   .section-padding-100 {
