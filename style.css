@@ -1,6 +1,7 @@
 /* :: :: 1.0 Import Fonts */
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900|Open+Sans:400,600,700");
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 /* :: 2.0 Import All CSS */
 
@@ -1686,6 +1687,7 @@ p {
 }
 
 .testimonials .card p {
+    font-family: 'Courgette', cursive;
     font-style: italic;
     line-height: normal;
     text-align: justify;
@@ -1729,7 +1731,7 @@ p {
         font-size: 18px;
     }
     .testimonials .card p {
-        font-size: 15px;
+        font-size: 14px;
     }
     .section-padding-100 {
         padding: 10px 0px !important;
